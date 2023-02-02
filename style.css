@@ -67,7 +67,7 @@ main section:nth-child(3),
 main section:nth-child(4) {
   width: 300px;
   height: 375px;
-  background: url("https://place-hold.it/300x375/000000/ffffff/999999.png&text=300x375-tile&bold&fontsize=30")
+  background: url("https://place-hold.it/300x375/000000/ffffff/999999.png&text=300x375-Tile&bold&fontsize=30")
     center no-repeat;
   background-size: contain;
 }
