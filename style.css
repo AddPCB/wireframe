@@ -110,16 +110,17 @@ main section:nth-child(6) > article:first-child h1 {
   line-height: 2;
 }
 
-main section:nth-child(6) > item:last-child .call-to-action {
-  background-color: #000;
+main section:nth-child(6) > item:last-child .call-to-order {
+  background-color:#000000;
   height: min-content;
   padding: 0.5em 1.5em;
   color: #fff;
   transition: background-color 350ms ease-in-out;
 }
-main section:nth-child(6) > item:nth-child(2) > button .call-to-action:hover {
+
+main section:nth-child(6) > item:last-child .call-to-order:hover {
   background-color: #fff;
-  color: #000;
+  color:#000000;
 }
 
 footer {
