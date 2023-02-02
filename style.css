@@ -89,22 +89,21 @@ main section:nth-child(6) {
   height: 400px;
   justify-content: space-between;
 }
-main section:nth-child(6) > item {
+main section:nth-child(6) > article, item {
   flex-grow: 0;
   display: flex;
   padding-left: 30px;
 }
-main section:nth-child(6) > item:first-child {
+main section:nth-child(6) article:first-child {
   flex-wrap: wrap;
   font-style: italic;
   line-height: 1.5;
   overflow-y:scroll;
   -ms-overflow-style: none;
-  overflow: -moz-scrollbars-none;
   scrollbar-width: none;
   overscroll-behavior: contain;
 }
-main section:nth-child(6) > item:first-child h1 {
+main section:nth-child(6) > article:first-child h1 {
   font-weight:normal;
   font-style:normal;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
