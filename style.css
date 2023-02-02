@@ -28,6 +28,9 @@ nav > item {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
+  color:#AAAAAA;
+  font-family: Arial, Helvetica, sans-serif;
 }
 nav item:first-child {
   background: url("https://place-hold.it/200x70/000000/ffffff/999999.png&text=200x70-Logo&fontsize=16")
@@ -95,10 +98,15 @@ main section:nth-child(6) > item:first-child {
   flex-wrap: wrap;
   font-style: italic;
   line-height: 1.5;
-  overflow-y: hidden;
+  overflow-y:scroll;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none;
+  overscroll-behavior: contain;
 }
 main section:nth-child(6) > item:first-child h1 {
-  font-weight: bold;
+  font-weight:normal;
+  font-style:normal;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 2;
 }
